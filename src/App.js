@@ -13,6 +13,7 @@ class App extends Component {
     let a = new ZmianaZasobow("jakowych","iletam");
 
     console.log(a);
+    let b = setTimeout(() => { alert("AHello"); }, 3000);
 
     return (
       <div className="App">
